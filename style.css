@@ -1,0 +1,95 @@
+/*THIS IS MY CSS TEMPLATE */
+
+/*********************************************************************
+ LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
+*********************************************************************/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+* {
+    box-sizing: border-box;    
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+html, body {
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+/*I made it light pink because he's Republican!*/
+body{
+    background-color: lightpink;
+}
+
+
+.container{
+    margin: 20px;
+    max-width: 750px;
+    padding: 20px;
+}
+
+.issues{
+    margin: 20px;
+    max-width: 750px;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+figure{
+    max-width: 750px;
+    text-align: center;
+    margin: auto;
+}
+
+img{
+    max-width: 75%;
+}
+
+figcaption {
+    margin-top: 5px;
+}
+
+
+/*This is for the date and byline below the image*/
+.dateline{
+    color: black;
+    font-size: 16px;
+    margin: 10px;
+    max-width: 750px;
+}
+
+.byline{
+    color: black;
+    font-size: 16px;
+    margin: 10px;
+    max-width: 750px;
+
+}
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    
+    .container{
+        margin: auto;
+        background-color: lightpink;
+    }
+
+
+
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+}
